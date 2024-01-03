@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8l6p0r4iyu7d"]
+
+[ext_resource type="Texture2D" uid="uid://bodobqicmn7yg" path="res://hexagon.png" id="1_4uxr0"]
+
+[node name="Hexagon" type="Sprite3D"]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0, 0, 0)
+texture = ExtResource("1_4uxr0")

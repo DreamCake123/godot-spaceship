@@ -1,0 +1,190 @@
+[gd_scene load_steps=2 format=3 uid="uid://roa62uuyl0k8"]
+
+[ext_resource type="PackedScene" uid="uid://c8l6p0r4iyu7d" path="res://hexagon.tscn" id="1_1c410"]
+
+[node name="World" type="Node3D"]
+
+[node name="Camera" type="Camera3D" parent="."]
+transform = Transform3D(0.999986, -0.00466789, 0.00255872, 0.000118154, 0.50002, 0.866014, -0.00532187, -0.866001, 0.500013, 3.86419, 3.66671, 4.2142)
+
+[node name="Grid" type="Node" parent="Camera"]
+
+[node name="Hexagon" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.000148356, 0.00109971, 0.00143605)
+
+[node name="Hexagon2" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.8, 0, 0)
+
+[node name="Hexagon3" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 1.6, 0, 0)
+
+[node name="Hexagon4" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.4, 0, 0)
+
+[node name="Hexagon5" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 3.2, 0, 0)
+
+[node name="Hexagon6" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4, 0, 0)
+
+[node name="Hexagon7" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4.8, 0, 0)
+
+[node name="Hexagon8" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 5.6, 0, 0)
+
+[node name="Hexagon9" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.4, 0, 0)
+
+[node name="Hexagon10" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 7.2, 0.002, -0.011)
+
+[node name="Hexagon11" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.401717, 0.00109971, 0.7)
+
+[node name="Hexagon12" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 1.20157, 0, 0.7)
+
+[node name="Hexagon13" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.00157, 0, 0.7)
+
+[node name="Hexagon14" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.80157, 0, 0.7)
+
+[node name="Hexagon15" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 3.60157, 0, 0.7)
+
+[node name="Hexagon16" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4.40157, 0, 0.7)
+
+[node name="Hexagon17" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 5.20157, 0, 0.7)
+
+[node name="Hexagon18" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.00157, 0, 0.7)
+
+[node name="Hexagon19" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.80157, 0, 0.7)
+
+[node name="Hexagon20" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 7.60157, 0.002, 0.7)
+
+[node name="Hexagon21" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.000148356, 0.00109971, 1.4)
+
+[node name="Hexagon22" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.8, 0, 1.4)
+
+[node name="Hexagon23" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 1.6, 0, 1.4)
+
+[node name="Hexagon24" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.4, 0, 1.4)
+
+[node name="Hexagon25" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 3.2, 0, 1.4)
+
+[node name="Hexagon26" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4, 0, 1.4)
+
+[node name="Hexagon27" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4.8, 0, 1.4)
+
+[node name="Hexagon28" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 5.6, 0, 1.4)
+
+[node name="Hexagon29" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.4, 0, 1.4)
+
+[node name="Hexagon30" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 7.2, 0.002, 1.4)
+
+[node name="Hexagon31" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.401717, 0.00109971, 2.1)
+
+[node name="Hexagon32" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 1.20157, 0, 2.1)
+
+[node name="Hexagon33" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.00157, 0, 2.1)
+
+[node name="Hexagon34" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.80157, 0, 2.1)
+
+[node name="Hexagon35" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 3.60157, 0, 2.1)
+
+[node name="Hexagon36" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4.40157, 0, 2.1)
+
+[node name="Hexagon37" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 5.20157, 0, 2.1)
+
+[node name="Hexagon38" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.00157, 0, 2.1)
+
+[node name="Hexagon39" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.80157, 0, 2.1)
+
+[node name="Hexagon40" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 7.60157, 0.002, 2.1)
+
+[node name="Hexagon41" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.000148356, 0.00109971, 2.8)
+
+[node name="Hexagon42" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.8, 0, 2.8)
+
+[node name="Hexagon43" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 1.6, 0, 2.8)
+
+[node name="Hexagon44" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.4, 0, 2.8)
+
+[node name="Hexagon45" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 3.2, 0, 2.8)
+
+[node name="Hexagon46" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4, 0, 2.8)
+
+[node name="Hexagon47" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4.8, 0, 2.8)
+
+[node name="Hexagon48" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 5.6, 0, 2.8)
+
+[node name="Hexagon49" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.4, 0, 2.8)
+
+[node name="Hexagon50" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 7.2, 0.002, 2.8)
+
+[node name="Hexagon51" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0.404103, 0.000820279, 3.51211)
+
+[node name="Hexagon52" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 1.20395, -0.000279427, 3.51211)
+
+[node name="Hexagon53" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.00395, -0.000279427, 3.51211)
+
+[node name="Hexagon54" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 2.80396, -0.000279427, 3.51211)
+
+[node name="Hexagon55" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 3.60396, -0.000279427, 3.51211)
+
+[node name="Hexagon56" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 4.40395, -0.000279427, 3.51211)
+
+[node name="Hexagon57" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 5.20396, -0.000279427, 3.51211)
+
+[node name="Hexagon58" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.00395, -0.000279427, 3.51211)
+
+[node name="Hexagon59" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 6.80396, -0.000279427, 3.51211)
+
+[node name="Hexagon60" parent="Camera/Grid" instance=ExtResource("1_1c410")]
+transform = Transform3D(0.1, 0, 0, 0, -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 7.60395, 0.00172057, 3.51211)
